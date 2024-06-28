@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\CMakeFiles\9c5ec945a9378ff54851d5f256c4f9aa\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F3228A3B-E33A-311E-8899-7DC1014B175F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

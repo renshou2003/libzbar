@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\bch15_5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\binarize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\isaac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\qrdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\qrdectxt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\rs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\include\zbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\bch15_5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\binarize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\isaac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\qrdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\rs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1CD40B34-104E-30F5-AF6C-905F6C6074B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0F15606-17C6-34DA-97A5-5C18912C7DDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\SelfGit\zbar\libzbar-0.10\build-x86\CMakeFiles\49a74f9765250427fef8a095d4d96543\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6018446A-7C8C-3E4A-A3D1-733D0257ADBE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

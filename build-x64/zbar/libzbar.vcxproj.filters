@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\img_scanner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\refcnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\scanner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\symbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\include\zbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\img_scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\refcnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\svg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include\unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C79E90C0-3441-3DC7-93AE-87DBDC72A428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{18CA430F-6423-3FD9-BD3E-731EDCBC061E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

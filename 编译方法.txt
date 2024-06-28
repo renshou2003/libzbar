@@ -1,0 +1,22 @@
+打开 VS 20xx Developer Command Prompt
+
+mkdir build
+cd build
+cmake -A x64 "-DCMAKE_INSTALL_PREFIX=C:/lib/libzbar" "-DCMAKE_BUILD_TYPE=Release" ..
+cmake --build . --config Release --target INSTALL
+
+cmake -A Win32 "-DCMAKE_INSTALL_PREFIX=C:/lib/libzbar" "-DCMAKE_BUILD_TYPE=Release" ..
+cmake --build . --config Release --target INSTALL
+
+
+Windows SDK for Windows 7 Web安装包程序：
+https://www.microsoft.com/en-us/download/details.aspx?id=8279
+
+//查看dll依赖的运行时
+dumpbin /headers "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\zbar\Release\libzbar-0.dll"
+dumpbin /imports "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\zbar\Release\libzbar-0.dll"
+dumpbin.exe /exports "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\zbar\Release\libzbar-0.dll"
+
+dumpbin /headers "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x86\zbar\Release\libzbar-0.dll"
+dumpbin /imports "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x86\zbar\Release\libzbar-0.dll"
+dumpbin.exe /exports "D:\Codes\SelfGit\zbar\libzbar-0.10\build-x86\zbar\Release\libzbar-0.dll"
