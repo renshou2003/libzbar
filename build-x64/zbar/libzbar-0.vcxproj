@@ -14,11 +14,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E1E9547-4588-3E83-98FC-5CC4DD7786BE}</ProjectGuid>
+    <ProjectGuid>{DC47AAC2-BF1F-3BE6-AFF0-80D229343BDB}</ProjectGuid>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
-    <ProjectName>libzbar</ProjectName>
+    <ProjectName>libzbar-0</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -42,14 +42,14 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\zbar\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzbar.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzbar</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzbar-0.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzbar-0</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\SelfGit\zbar\libzbar-0.10\build-x64\zbar\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzbar.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzbar</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzbar-0.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzbar-0</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
@@ -65,11 +65,11 @@
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR="Debug";libzbar_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR="Debug";libzbar_0_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Debug\";libzbar_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Debug\";libzbar_0_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -86,8 +86,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Debug/libzbar.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Debug/libzbar.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Debug/libzbar-0.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Debug/libzbar-0.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -104,13 +104,13 @@
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR="Release";libzbar_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR="Release";libzbar_0_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Release\";libzbar_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Release\";libzbar_0_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -127,8 +127,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Release/libzbar.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Release/libzbar.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Release/libzbar-0.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64/zbar/Release/libzbar-0.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>

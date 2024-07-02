@@ -15,7 +15,7 @@
 ########################
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lib.exe
+CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/lib.exe
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:UNINITIALIZED=Release
@@ -80,7 +80,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_INSTALL_PREFIX:PATH=C:/lib/libzbar
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64/link.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -194,6 +194,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 // during RELWITHDEBINFO builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
+//No help, variable specified on the command line.
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=8.1
+
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -281,6 +284,9 @@ HAVE_XVLIB_F:FILEPATH=HAVE_XVLIB_F-NOTFOUND
 //Dependencies for the target
 ldecoder_LIB_DEPENDS:STATIC=general;lconfig;
 
+//Dependencies for the target
+libzbar-0_LIB_DEPENDS:STATIC=general;lqrcode;general;ldecoder;general;lconfig;
+
 //Value Computed by CMake
 libzbar_BINARY_DIR:STATIC=D:/Codes/SelfGit/zbar/libzbar-0.10/build-x64
 
@@ -362,7 +368,7 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=x64
 //Name of generator toolset.
-CMAKE_GENERATOR_TOOLSET:INTERNAL=
+CMAKE_GENERATOR_TOOLSET:INTERNAL=v140
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=D:/Codes/SelfGit/zbar/libzbar-0.10

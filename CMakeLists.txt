@@ -55,7 +55,7 @@ set(LQRCODE     "lqrcode")
 set(LZBAR       "")
 
 if(WIN32)
-    set(LZBAR       "libzbar")
+    set(LZBAR       "libzbar-0")
 elseif(ANDROID)
     message(STATUS "ANDROID_ABI = ${ANDROID_ABI}")
     set(LZBAR       "zbar")

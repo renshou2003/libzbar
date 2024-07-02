@@ -2,7 +2,7 @@ D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/INSTALL.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/ALL_BUILD.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/ZERO_CHECK.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/CMakeFiles/lconfig.dir
-D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/CMakeFiles/libzbar.dir
+D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/CMakeFiles/libzbar-0.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/CMakeFiles/INSTALL.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/decoder/CMakeFiles/ldecoder.dir
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/zbar/decoder/CMakeFiles/INSTALL.dir

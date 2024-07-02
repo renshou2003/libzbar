@@ -1,1 +1,1 @@
-C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Microsoft/VC/v170
+C:/Program Files (x86)/MSBuild/Microsoft.Cpp/v4.0/V140

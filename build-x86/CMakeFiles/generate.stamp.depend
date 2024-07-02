@@ -58,6 +58,7 @@ C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVer
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX-FeatureTests.cmake
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake
@@ -93,3 +94,4 @@ D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/3.22.2/CMakeCCompiler.cm
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/3.22.2/CMakeCXXCompiler.cmake
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/3.22.2/CMakeRCCompiler.cmake
 D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/3.22.2/CMakeSystem.cmake
+D:/Codes/SelfGit/zbar/libzbar-0.10/build-x86/CMakeFiles/feature_tests.cxx

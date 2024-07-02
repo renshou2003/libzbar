@@ -15,7 +15,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2FE62995-2006-369E-9916-F621F7943D8E}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>lconfig</ProjectName>
@@ -25,12 +25,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -52,7 +52,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w /w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -66,10 +66,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -82,7 +82,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w /w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;LIB_ZBAR_BUILD;HAVE_FCNTL;HAVE_INTTYPES;HAVE_MEMORY;HAVE_STDINT;HAVE_STDLIB;HAVE_STRING;HAVE_STAT;HAVE_TYPES;HAVE_UNISTD;HAVE_VFW;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\10.0.22000.0\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\SelfGit\zbar\libzbar-0.10\include;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\decoder;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\qrcode;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\libiconv-win\include;C:\Program Files\Windows Kits\10\Include\8.1\ucrt;D:\Codes\SelfGit\zbar\libzbar-0.10\zbar\win-include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

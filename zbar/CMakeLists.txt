@@ -4,6 +4,7 @@ add_subdirectory("decoder")
 add_subdirectory("qrcode")
 
 set(SOURCES
+    notused/convert.c
     decoder.c
     error.c
     image.c
